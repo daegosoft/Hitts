@@ -1,0 +1,13 @@
+com\co\entities\Usuarios.class
+com\co\entities\Clientes.class
+com\co\entities\Precio_.class
+com\co\entities\Productos.class
+com\co\entities\Ventadetalle.class
+com\co\entities\Ventas_.class
+com\co\entities\Ventadetalle_.class
+com\co\entities\Clientes_.class
+com\co\NewSessionBean.class
+com\co\entities\Precio.class
+com\co\entities\Productos_.class
+com\co\entities\Usuarios_.class
+com\co\entities\Ventas.class
