@@ -6,6 +6,7 @@
 package com.co.miingresohitsssoa;
 
 import com.co.dao.Servicios;
+import com.co.entities.Usuarios;
 import javax.inject.Inject;
 import javax.jws.WebService;
 import javax.jws.WebMethod;
@@ -26,5 +27,11 @@ public class ServiceSOA {
     @WebMethod(operationName = "autenticar")
     public boolean autenticacion(@WebParam(name = "user") String txt, @WebParam(name = "pass") String pass) {
         return servicios.autenticar(pass, pass);
+    }
+    
+    
+    @WebMethod(operationName = "obtener")
+    public Usuarios autenticacion(@WebParam(name = "user") Long idUsuario) {
+        return servicios.obtenerUsuario(idUsuario);
     }
 }

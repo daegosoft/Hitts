@@ -10,6 +10,8 @@ public interface ProductoDAO {
     
     List<Productos> obtenerProductos();
     
+    Productos obtenerProducto(Long idProducto);
+    
     boolean crearProducto(Productos p);
     
     boolean modificarProducto(Productos p);

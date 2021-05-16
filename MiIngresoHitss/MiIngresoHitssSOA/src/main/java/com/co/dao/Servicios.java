@@ -1,5 +1,6 @@
 package com.co.dao;
 
+import com.co.entities.Usuarios;
 import javax.inject.Inject;
 
 /**
@@ -12,5 +13,9 @@ public class Servicios {
     
     public boolean autenticar(String user, String pass){
         return servicio.autenticar(user, pass);
+    }
+    
+    public Usuarios obtenerUsuario(Long idUsuario) {
+        return servicio.obtenerUsuario(idUsuario);
     }
 }
