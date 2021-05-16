@@ -5,6 +5,8 @@
  */
 package com.co.miingresohitsssoa;
 
+import com.co.dao.Servicios;
+import javax.inject.Inject;
 import javax.jws.WebService;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -19,10 +21,10 @@ public class ServiceSOA {
     /**
      * This is a sample web service operation
      */
-    
+    @Inject Servicios servicios;
     
     @WebMethod(operationName = "autenticar")
     public boolean autenticacion(@WebParam(name = "user") String txt, @WebParam(name = "pass") String pass) {
-        return false;
+        return servicios.autenticar(pass, pass);
     }
 }

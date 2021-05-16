@@ -1,9 +1,12 @@
+com\co\daoImpl\UsuarioImpl.class
 com\co\entities\Usuarios.class
+com\co\daoImpl\GenericConnect.class
 com\co\entities\Clientes.class
 com\co\entities\Precio_.class
 com\co\entities\Productos.class
 com\co\entities\Ventadetalle.class
 com\co\entities\Ventas_.class
+com\co\dao\UsuarioDAO.class
 com\co\entities\Ventadetalle_.class
 com\co\entities\Clientes_.class
 com\co\NewSessionBean.class

@@ -10,5 +10,6 @@
     <module>MiIngresoHitss-web</module>
     <module>MiIngresoHitss-ejb</module>
     <module>MiIngresoHitssSOA</module>
+    <module>MiIngresoHitssREST</module>
   </modules>
 </project>
